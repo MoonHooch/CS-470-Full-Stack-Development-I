@@ -1,2 +1,10 @@
 # cs465-fullstack
 CS-465-Full Stack Development with MEAN
+
+The Travlr Getaways project is comprised of a multi-page application customer portal and a single-page application admin portal, served through a mutual API. The stack is built entirely using Javascript and Typescript, using Express and node.js as the platform and web framework. The databasing program is MongoDb with Mongoose for data access and schema design. MongoDb is well suited for such an application as it's scalable and structure can be enforced through the Mongoose schema when necessary.
+
+JSON is used as the document store format for our database, and is used to exchange data between the front and back end of the application. JSON objects retrieved from the database are then formatted and rendered to the page based on the handlebars templates that make up the front end. Handlebars was an excellent templating engine to use when refactoring the static HTML pages into dynamic, reusable page structures and components. Reusable handlebars components are especially helpful for tasks like rendering the header and footer of each page or populating a non-determined number of trips to the travel page.
+
+Postman proved helpful for testing API endpoints and methods. Being able to interact with URL endpoints was an excellent way of testing functionality without using the site directly. This was particuarly helpful when security features were added to the program, as it was a quick and easy way to check if authorization was added to the features that required it, as well as determining if the authorization was functioning as intended.
+
+This course provided the largest jump in my progress as a computer scientist to date. I had no experience with web development outside of HMTL, CSS, and basic Javascript, and now feel equipped to work on full stack express applications, understand the fundamentals of templating, and most importantly have gained some insight into the MEAN architecture, which was entirely foreign to me.
